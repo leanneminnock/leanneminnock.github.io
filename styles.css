@@ -1,0 +1,68 @@
+.profile-pic {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    border-radius: 8px;
+    transition: box-shadow .2s ease-in;
+} 
+
+.profile-pic:hover {
+    
+    box-shadow: -10px 5px 5px grey;
+} 
+
+.bio {
+    background-image: url("images/bio_background.png");
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-bg {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.projects {
+    background-image: url("images/Watercolour2.png");
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills {
+
+    background-image: url("images/watercolour8.png");
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    border-radius: 8px !important;
+    transition: box-shadow .2s ease-in;
+
+}
+
+.card:hover {
+    
+    box-shadow: -10px 5px 5px rgba(28, 28, 28, 0.6);
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inknut Antiqua', serif;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
