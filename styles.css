@@ -81,10 +81,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.gradient {
+/* .gradient {
     background-image: linear-gradient(to right, #2d2276, #a41b76, #ed4956, #ff9a2a, #e6ee36);
     opacity: 0.65;
-}
+} */
 
 .btn {
     transition: all .2s ease-in !important;
@@ -99,10 +99,37 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     position: absolute !important;
     margin-top: 2em !important;
-    
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+
 }
 
-.nav {
-    font-weight: bold;
-    
+.nav-link {
+    color: black !important;
+}
+
+.dropdown-item {
+    font-weight: bold !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    background-image: linear-gradient(to right, #2d2276, #a41b76, #ed4956, #ff9a2a, #e6ee36);
+    opacity: 0.5;      
+}
+
+.skills-list {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border-radius: 8px;
+}
+
+.fa-js {
+    /* The FA js icon does not have the JS coloured in white, so add a background color
+    and stop it clipping outside the font */
+    background-color: white;
+    clip-path: polygon(0 5px, 100% 5px, 100% 75px, 0 75px);
 }
