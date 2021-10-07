@@ -51,6 +51,18 @@
     background-size: cover;
 }
 
+.contact {
+
+    background-image: url("images/Watercolor4.png");
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card {
     border-radius: 8px !important;
     transition: box-shadow .2s ease-in;
@@ -87,4 +99,10 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     position: absolute !important;
     margin-top: 2em !important;
+    
+}
+
+.nav {
+    font-weight: bold;
+    
 }
