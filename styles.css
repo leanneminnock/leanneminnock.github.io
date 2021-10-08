@@ -12,20 +12,27 @@
 
 .bio {
     background-image: url("images/bio_background.png");
+    
     min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     align-items: center; 
     justify-content: center;
 }
+ p {
+     line-height: 2em;
+     font-weight: 600 !important;
+ }
 
 .text-bg {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    padding-top: 1em;
 }
 
 .projects {
@@ -81,10 +88,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .gradient {
+.gradient {
     background-image: linear-gradient(to right, #2d2276, #a41b76, #ed4956, #ff9a2a, #e6ee36);
     opacity: 0.65;
-} */
+    font-weight: bold;
+    color: black;
+   
+}
 
 .btn {
     transition: all .2s ease-in !important;
@@ -105,7 +115,9 @@ nav {
 }
 
 .nav-link {
-    color: black !important;
+    color:black !important;
+    text-decoration: none !important;
+    font-weight: bold;
 }
 
 .dropdown-item {
@@ -125,6 +137,7 @@ nav {
 .skills-list {
     background-color: rgba(255, 255, 255, 0.75) !important;
     border-radius: 8px;
+    min-height: 408px ;
 }
 
 .fa-js {
@@ -132,4 +145,20 @@ nav {
     and stop it clipping outside the font */
     background-color: white;
     clip-path: polygon(0 5px, 100% 5px, 100% 75px, 0 75px);
+}
+
+.footer{
+    color:white !important;
+    font-weight: bold;
+}
+
+.footer-link{
+    color:white !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.contact-link {
+    text-decoration: none !important;
+
 }

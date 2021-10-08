@@ -49,15 +49,14 @@
       <h3>Bio</h3>
       <p>Hi, I'm Leanne. I am an aspiring, self taught, full stack developer (and avid crocheter). <br>
         I have taken an opportunity in the last year to follow my interest in software development and hone my full
-        stack
-        skills.
+        stack skills. <br>
         After many eureka moments and just a few exesential crises, I am finally at a stage where I can say that I am a
         developer. <br>
         So, let me tell you a little about my journey over the last year:
       </p>
     </div>
   </section>
-  <section class="projects pb-2" id="projects">
+  <section class="projects pb-2 row" id="projects">
     <h3 class="pt-4">Projects</h3>
     <div class="row to-do pt-2" id="to-do">
       <div class="col-sm-6">
@@ -146,8 +145,8 @@
     </div>
 
     <div class="row" id="dutch-treat">
-      <div class="col-sm-6 offset-sm-6">
-        <div class="card">
+      <div class="col-md-6 offset-md-6">
+        <div class="card ">
           <div class="card-body">
             <h4 class="card-title">Dutch Treat</h4>
             <span style="font-size: 2em; color: #DD0031;"><i class="fab fa-angular"></i></span>
@@ -179,48 +178,87 @@
       </div>
     </div>
   </section>
-  <section class="skills h-100" id="skills">
+  <section class="skills h-100 d-flex flex-column row" id="skills">
     <h3 class="pt-4">Skills</h3>
     <!-- language type and Icon, blurb on coming from retail and skills learned through it -->
-    <div class="row">
+    <div class="row flex-fill align-items-center ">
       <div class="col-md-3"></div>
+
       <div class="skills-list col-md-3 d-flex flex-column align-items-center justify-content-evenly">
         <span class="mt-4" style="font-size: 5em; color: #DD0031;"><i class="fab fa-angular"></i></span> Angular <br>
         <span class="mt-4" style="font-size: 5em; color: #D84924;"><i class="fab fa-html5"></i></span> HTML 5 <br>
-        <span class="mt-4" style="font-size: 5em; color: #F7E018;"><i class="fab fa-js" style="background-color: white;"></i></span> JavaScript <br>
+        <span class="mt-4" style="font-size: 5em; color: #F7E018;"><i class="fab fa-js"
+            style="background-color: white;"></i></span>
+        <span class=" mb-4">
+          JavaScript
+        </span>
       </div>
+
       <div class="skills-list col-md-3 d-flex flex-column align-items-center justify-content-evenly">
         <img class="mt-4" src="images/ts.svg" alt="TypeScript logo" style="height: 5em; vertical-align: text-bottom">
         <span class="mt-1"> TypeScript</span>
         <img class="mt-4" src="images/csh.svg" alt="TypeScript logo" style="height: 5em; vertical-align: text-bottom">
-        
         <span class="">
           C# Dotnet Core
         </span>
         <span class="">
           Entity Framework
         </span>
-        <span class="">
+        <span class=" mb-4">
           ASPnet Core
         </span>
+      </div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
 
+      <div class="skills-list col-md-6 d-flex flex-column align-items-center justify-content-center">
+        <h5>Soft Skills</h5>
+        <span class="soft-skills text-center mt-4 mb-2">
+          After many years working in retail, over two of those as a manager, <br> I have developed important skills in:
+        </span>
+        <ul>
+          <li>
+            Communication and working as part of a team
+          </li>
+          <li>
+            Time-keeping and Task prioritisation
+          </li>
+          <li>
+            An ability to think on my feet and problem-solve
+          </li>
+        </ul>
       </div>
     </div>
   </section>
-  <section class="contact h-50" id="contact">
+  <section class="contact h-50 d-flex flex-column row" id="contact">
     <h3 class="pt-4">Contact</h3>
+    <div class="row flex-fill align-items-center">
+      <div class="d-flex flex-column col-md-2 offset-md-3 align-items-center">
+        <a class="contact-link" style="color: rgb(68, 25, 110);" href="mailto:leanneminnock91@gmail.com"><i class="fas fa-envelope fa-10x"></i></a>
+      </div>
+      <div class="col-md-2 d-flex flex-column align-items-center">
+        <a class="contact-link" style="color: #0A66C2;" href="https://www.linkedin.com/in/leanne-minnock" target="_blank"><i class="fab fa-linkedin fa-10x"></i></a>
+      </div>
+      <div class="col-md-2 d-flex flex-column align-items-center">
+        <a class="contact-link" style="color: #14191E;" href="https://github.com/leanneminnock" target="_blank"><i class="fab fa-github fa-10x"></i></a>
+      </div>
+    </div>
+
   </section>
 
-
-
-  <br><br>
-  TS Icon by <a href="https://freeicons.io/profile/3">freeicons</a> on <a href="https://freeicons.io">freeicons.io</a>
-  <br>
-  C# Icon by <a href="https://cdnlogo.com/logo/c_760.html">cdnlogo</a> on <a href="https://cdnlogo.com/">cdnlogo.com</a>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
     crossorigin="anonymous"></script>
 </body>
+<footer class="footer gradient row">
+  <div class="col md-6">
+    TS Icon by <a class="footer-link" href="https://freeicons.io/profile/3">freeicons</a> on <a class="footer-link"
+      href="https://freeicons.io">freeicons.io</a>
+    <br>
+    C# Icon by <a class="footer-link" href="https://cdnlogo.com/logo/c_760.html">cdnlogo</a> on <a class="footer-link"
+      href="https://cdnlogo.com/">cdnlogo.com</a>
+  </div>
+</footer>
 
 </html>
