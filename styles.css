@@ -49,7 +49,8 @@
 .skills {
 
     background-image: url("images/watercolour8.png");
-    min-height: 500px;
+    /* Min height is either full screen size or 874px, whichever is bigger */
+    min-height: max(874px, 100%);
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -61,7 +62,8 @@
 .contact {
 
     background-image: url("images/Watercolor4.png");
-    min-height: 500px;
+    /* Min height is either full screen size or 874px, whichever is bigger */
+    min-height: max(600px, 50%);
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
